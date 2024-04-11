@@ -20,7 +20,7 @@ def test_insert_attendee():
 def test_get_attendee_bagde_by_id():
     attendee_id = "meu_uuid_attendee"
     attendees_repository = AttendeesRepository()
-    attendee = attendees_repository.get_attendee_bagde_by_id(attendee_id)
+    attendee = attendees_repository.get_attendee_badge_by_id(attendee_id)
 
     print(attendee)
     print(attendee.title)
